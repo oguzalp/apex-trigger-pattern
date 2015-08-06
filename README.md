@@ -1,5 +1,4 @@
-# apex-trigger-pattern
-Apex trigger design template
+# Apex Trigger Pattern Template
 
 ## Usage
   <pre>new Triggers().
