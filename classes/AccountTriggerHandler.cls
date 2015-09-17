@@ -4,6 +4,7 @@
 */
 public class AccountTriggerHandler implements Triggers.IHandler{
     
+    /*Commented by cloudoz*/
     /*needs to be implemented.*/
     public void execute(){
         ProcessAccountDescriptions();
