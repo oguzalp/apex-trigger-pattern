@@ -5,11 +5,11 @@
 public class AccountTriggerHandler implements Triggers.IHandler{
     
     /*Commented by cloudoz*/
-    /*needs to be implemented.*/
+    /*Ihandler interface method needs to be implemented.*/
     public void execute(){
         ProcessAccountDescriptions();
     }
-
+    
     private static void ProcessAccountDescriptions(){
 
         List<Account> accounts= (List<Account>)Trigger.new;
