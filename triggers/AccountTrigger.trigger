@@ -2,7 +2,9 @@ trigger AccountTrigger on Account (before insert,after insert,before update,afte
           
         new Triggers().
             bind(Triggers.Event.beforeinsert, new AccountTriggerHandler()).
-            bind(Triggers.Event.beforeupdate,new AccountTriggerHandler()).   
+            bind(Triggers.Event.beforeupdate,new AccountTriggerHandler()).
+            bind(Trigger.Event.afterinsert,new AccountTriggerHandler()).
+            bind(Trigger.Event.afterupdate,new AccountTriggerHandler()).   
         runAll();  
        
 }
